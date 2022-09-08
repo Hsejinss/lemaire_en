@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* 내부 폰트 연결 */
+@font-face {
+    font-family: "silk-serif";
+    src: url(../font/silk-serif/Silk-Serif-Black.otf);
+    src: url(../font/silk-serif/Silk-Serif-Bold.otf);
+    src: url(../font/silk-serif/Silk-Serif-SemiBold.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "silk-serif";
+    src: url(../font/silk-serif/Silk-Serif-Medium.otf);
+    src: url(../font/silk-serif/Silk-Serif-Regular.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "silk-serif";
+    src: url(../font/silk-serif/Silk-Serif-Light.otf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "BrownStd-Regular";
+    src: url(../font/BrownStd/BrownStd-Regular/BrownStd-Regular.ttf);
+}
+@font-face {
+    font-family: "Pretendard";
+    src: url(../font/Pretendard/Pretendard-Bold.otf);
+    src: url(../font/Pretendard/Pretendard-SemiBold.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Pretendard";
+    src: url(../font/Pretendard/Pretendard-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Pretendard";
+    src: url(../font/Pretendard/Pretendard-Light.otf);
+    src: url(../font/Pretendard/Pretendard-Thin.otf);
+    font-weight: 300;
+}
+
+/* 전체 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+ol, li, ul {
+    list-style: none;
+}
+img, svg, video, iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+html{
+    scroll-behavior: smooth;
+    /* ios상에서 스크롤 좀 더 부드럽게 해줌 */
+}
+html, body{
+    font-family: "BrownStd-Regular";
+    font-size: 100%;
+}
